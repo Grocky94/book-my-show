@@ -169,7 +169,7 @@ margin-top: 5px;
     object-fit: cover;
 }
 #recmov{
-    height:600px;
+    height:500px;
     width: 80%;
     margin-left: 10%;
     border:1px solid black;
@@ -203,20 +203,192 @@ margin-top: 5px;
     text-decoration: none;
     
 }
+.movieDivalign{
+    height:450px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+}
 .movDiv{
-height:550px;
-width:280px;
+height:450px;
+width:220px;
 border:1px solid black;
 border-top: 5px;
 }
 .movieFrame{
-    height:460px;
-    width:100%;
+    height:363px;
+    width:220px;
     border:1px solid black;
     border-radius: 10px;
 }
 
-.movieFrame> img{
-    height:460px;
+.movieFrame> img{   
     object-fit:cover;
+    width: 100%;
+    border-radius: 5px;
 }
+.movieTitle{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+
+}
+.movieGenre{
+    opacity: 0.7;
+    margin-top: 10px;
+}
+#bookStreamAd{
+    height:200px;
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+#bookStreamAd> div{
+height:100px;
+width: 100%;
+border: 1px solid black;
+margin-top: 50px;
+}
+.bookStreamAdPic{
+    width: 100%;
+    object-fit: cover;
+}
+.BOE{
+    height:330px;
+    width: 80%;
+    margin-left: 10%;
+    border:1px solid black;
+
+}
+.BoeIntro{
+height:50px;
+width:100%;
+border:1px solid black;
+}
+.BoeIntro> p{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 15px;
+}
+.BOE-align{
+    height:280px ;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.BOEPIC{
+    height:230px;
+    width:230px;
+    margin-top: 10px;
+    border:1px solid black;
+}
+.BOEPIC> img{
+    width:100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.nexttag{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 80%;
+    height: 40px;
+    width:40px;
+    border:1px solid black;
+    border-radius: 20px;
+    background-color: gray;
+}
+.nexttag> i{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+}
+#premiBg{
+    height:640px;
+    width:1500;
+    margin-right:0%;
+    border:1px solid black;
+    background-color: #2b3148;
+}
+#premiDiv{
+    height:120px;
+    width: 80%;
+    margin-left: 10%;
+    border:1px solid black;
+}
+#premiDiv> img{
+    margin-top: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+#primiere{
+    height:519px;
+    width: 80%;
+    margin-left: 10%;
+    border:1px solid black;
+}
+#primiereLabel{
+    height:80px;
+    width: 100%;    
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#primName{
+    height:79px;
+    width: 350px;
+    border: 1px solid black;
+}
+.primBolt{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+.primeUnbolt{
+    margin-top: -15px;
+    color: white;
+}
+.movieDivalign-New{
+    height:430px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+}
+.movDivS{
+    height:420px;
+    width:220px;
+    border:1px solid black;
+    border-top: 5px;
+    }
+.movieFrameS{
+    height:331px;
+    width:220px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.movieFrameS> img{   
+    object-fit:cover;
+    width: 100%;
+    border-radius: 5px;}
+
+.movieTitleW{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 10px;
+    color: white;
+
+}
+.movieGenreW{
+    opacity: 0.7;
+    margin-top: 10px;
+    color: white;
+}
+
+
+
