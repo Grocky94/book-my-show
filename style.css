@@ -307,7 +307,7 @@ border:1px solid black;
 }
 #premiBg{
     height:640px;
-    width:1500;
+    width:100%;
     margin-right:0%;
     border:1px solid black;
     background-color: #2b3148;
@@ -331,7 +331,8 @@ border:1px solid black;
 }
 #primiereLabel{
     height:80px;
-    width: 100%;    
+    width: 80%;
+    margin-left: 10%;    
     border:1px solid black;
     display: flex;
     justify-content: space-between;
@@ -353,7 +354,8 @@ border:1px solid black;
 }
 .movieDivalign-New{
     height:430px;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     border: 1px solid black;
     display: flex;
     margin-top: 5px;
@@ -389,6 +391,92 @@ border:1px solid black;
     margin-top: 10px;
     color: white;
 }
+footer{
+    height:auto;
+    width: 100%;
+    border:1px solid black;
+}
+#fLabel{
+    height:60px;
+    width:80%;
+    margin-left: 10%;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#hut{
+    height:40px;
+    width:50px;
+    border:1px solid black;
+    margin-top: 10px;
+}
+#hut>img{
+    border:1px solid black;
+    margin-left: 8px;
+    margin-top: 2px;
+}
 
+#contUs{
+    height:40px;
+    width:1000px;
+    border:1px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#spreadH{
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+}
+#spreadH-nom{
+    margin-top: 10px;
+}
+#conBt{
+    height:40px;
+    width:180px;
+    border:1px solid black;
+    background-color: #f84464;
+    border-radius: 3px;
+    color: white;
+}
+#conBt> p{
+    margin-top: 10px;
+    text-align: center;
+}
+#help{
+    height:140px;
+    width:100%;
+    border:1px solid black;
+    background-color: #404043; 
+}
+#helpDiv{
+    height: 140px;
+    width:80%;
+    margin-left: 10%;
+    border:1px solid black;
+    display:flex;
+    justify-content: space-around;
+}
+.logopic{
+    width: 100%;
+    object-fit: contain;
+}
+#articles{
+    height:800px;
+    width: 80%;
+    margin-left: 10%;
+    border:1px solid black;
+}
+.artHead{
+    font-weight: bold;
+    font-size:medium;
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+}
+.artDes{
+    color: rgb(127, 127, 127);
+    margin-top: 10px;
 
-
+}
